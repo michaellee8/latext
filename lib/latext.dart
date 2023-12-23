@@ -125,7 +125,7 @@ class LaTexTState extends State<LaTexT> {
       }
       textSpans.add(
         TextSpan(
-          text: texts[i].trim(),
+          text: texts[i],
         ),
       );
     }
